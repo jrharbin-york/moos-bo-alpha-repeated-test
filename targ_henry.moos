@@ -283,24 +283,3 @@ ProcessConfig = pObstacleMgr
 	//obstacles_color = light_green
 	//obstacles_color = invisible
 } 
-
-
-
-ProcessConfig = ATLASDBInterface
-{
-AppTick = 2
-CommsTick = 2
-ACTIVEMQ_PORT = 61616
-ACTIVEMQ_TOPIC_PROD = MIDDLEWARE-watch-henry
-ACTIVEMQ_TOPIC_CONS = FAULTS-SIM-TO-ATLAS-targ_henry.moos
-WATCH_VAR = VAR_X
-WATCH_VAR = VAR_Y
-WATCH_VAR = DB_UPTIME
-WATCH_VAR = NODE_REPORT_LOCAL
-WATCH_VAR = UHZ_DETECTION_REPORT
-WATCH_VAR = UHZ_HAZARD_REPORT
-WATCH_VAR = DESIRED_THRUST
-WATCH_VAR = DESIRED_RUDDER
-WATCH_VAR = DESIRED_ELEVATOR
-}
-
